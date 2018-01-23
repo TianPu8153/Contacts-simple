@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:text="运武"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button21"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:onClick="dianjirenming21" />
+
+            <Button
+                android:text="运钢"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button22"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:onClick="dianjirenming22" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:text="运航"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button23"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:onClick="dianjirenming23" />
+
+            <Button
+                android:text="运海"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button24"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:onClick="dianjirenming24" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:text="运普"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button25"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:onClick="dianjirenming25" />
+
+            <Button
+                android:text="运虎"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button26"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:onClick="dianjirenming26" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:text="上一页"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button27"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:onClick="shangyiye2" />
+
+            <TextView
+                android:text="第3页"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+            <Button
+                android:text="下一页"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button28"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:onClick="xiayiye2" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
